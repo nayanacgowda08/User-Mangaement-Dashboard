@@ -1,24 +1,3 @@
-// // eslint-disable-next-line no-unused-vars
-// import React from 'react'
-
-// function Card({data,handleClick ,index}) {
-
-//   const {name,image,artist,fav} = data
-//   return (
-//     <div className='bg-gray-200 w-60 p-4 flex gap-4 rounded-md relative mt-10 pb-10'>
-//         <div className='w-20 h-20 bg-orange-600 rounded'>
-//           <img  className='w-full h-full object-cover' src={image} alt="" />
-//         </div>
-//         <div className=''>
-//             <h2 className='font-semibold text-lg leading-none'>{name}</h2>
-//             <h4 className='text-sm'> {artist}</h4>
-//         </div>
-//         <button  onClick={()=>handleClick(index)} className={`px-4 py-3 ${fav===false?"bg-orange-600":"bg-teal-600"} whitespace-nowrap left-1/2 -translate-x-[50%]  translate-y-[50%]  rounded-full absolute bottom-0 text-white text-xs`}>{fav === false ? "Add to favourites" : "Added"}</button>
-//     </div>
-//   )
-// }
-
-// export default Card
 
 import React from 'react'
 
